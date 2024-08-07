@@ -9,7 +9,7 @@
 
 // 2. This will print 'Hello setInterval' every 2 seconds until and when cnt is greater than 5, it will stop the interval.
 var cnt = 1;
-const interval = setInterval(() => {
+const interval = setInterval(() => { 
     console.log('Hello setInterval');
     cnt++;
     if (cnt > 5) {
